@@ -54,7 +54,7 @@ let {cartProducts}=useContext(MyShop)
           {/* User */}
           <div className="flex items-center gap-3 bg-[#171717] border border-[#2a2a2a] px-2 py-1 rounded-2xl">
             <div className="w-7 h-7 uppercase rounded-lg bg-lime-400 text-black font-bold flex items-center justify-center">
-          {(loggedUser.name).substring(0,1)}
+           
             </div>
 
             <span className="text-white text-md">
