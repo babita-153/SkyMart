@@ -62,14 +62,7 @@ const formSubmit=(data)=>{
             })}
             className='p-3 border border-lime-400 rounded text-white' type="password" placeholder='Password (min 8 chars)'/>
             {errors.password && <p className='text-red-800'>{errors.password.message}</p>}
-            <input
-             {...register("password",{required:"password is required",
-              minLength:{
-                value:8,
-                message:"minimum 8 characters required"
-              }})}
-            className='p-3 border border-lime-400 rounded text-white' type="password" placeholder='Confirm Password'/>
-            {errors.password && <p className='text-red-800'>{errors.password.message}</p>}
+           
             <button className='p-2 bg-lime-400 text-black font-bold rounded-xl'>Create Account</button>
             <p className="text-center text-gray-400 ">
             Already have an account?{" "}
