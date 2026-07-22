@@ -4,7 +4,7 @@ import {useForm} from 'react-hook-form'
 import { Auth } from "../context/AuthContext";
 import { NavLink, useNavigate } from "react-router";
 import { toast } from "react-toastify";
-
+import MainDashboard from "../components/MainDashboard";
 
 
 const LoginForm=()=>{
@@ -45,7 +45,7 @@ toast.error("invalid user")
        <div className="h-screen flex p-5 items-center bg-black gap-10">
 
   
-
+          <MainDashboard/>
           <div className=" w-90 bg-black text-white  flex-col gap-5 border-2 p-6  rounded-2xl border-gray-600 flex">
       <div>
         <h1 className="text-xl font-bold">Sign in</h1>
